@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- informa que é uma versão mais recente do html (HTML5)-->
+<html lang="pt-br">
+<!--inicia ocódigo html e informa a linguagem usada na página-->
+
+<head>
+    <!--titulo que aparecerá na aba do navegador-->
+    <!--inicia o topo da página-->
+
+    <title>
+
+        Jogo da velha
+    </title>
+    <!--fecha o campo titulo-->
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<!--fecha o topo da página-->
+
+<body>
+    <!--inicia o corpo da página-->
+
+    <h1>
+        <!--h1 é titulo que a aprecerá no corpo da página-->
+        Jogo da Velha
+    </h1>
+
+    <div>
+        <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <!-- ativa o quadrado pelo clique-->
+        <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <!-- ativa o quadrado pelo clique-->
+        <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <!-- ativa o quadrado pelo clique-->
+    </div>
+
+    <div>
+        <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <!-- ativa o quadrado pelo clique-->
+        <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <!-- ativa o quadrado pelo clique-->
+        <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <!-- ativa o quadrado pelo clique-->
+    </div>
+
+    <div>
+        <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <!-- ativa o quadrado pelo clique-->
+        <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <!-- ativa o quadrado pelo clique-->
+        <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <!-- ativa o quadrado pelo clique-->
+    </div>
+
+    <div class="jogador">
+        <!--identifica a classe jogador e coloca o texto-->
+        <label>
+        Jogador:
+    </label>
+        <label id="jogador-selecionado">
+
+    </label>
+    </div>
+
+    <div class="vencedor">
+        <!--identifica a classe vencedor e coloca o texto-->
+        <label>
+        Vencedor:
+    </label>
+        <label id="vencedor-selecionado">
+
+    </label>
+    </div>
+
+    <div>
+        <button onclick="reiniciar()"> <!-- ativa o botão reiniciar pelo clique-->
+        Reiniciar
+    </button>
+    </div>
+
+</body>
+<!--fecha o corpo do código-->
+
+<script src="velha.js"></script>
+<!--associa o código javaScript ao html-->
+
+</html>
+<!--fecha o código html-->

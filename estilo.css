@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    /* alinha o corpo do texto associado ao html*/
+}
+
+.quadrado {
+    /* define todo o launch do quadrado, alinhamento, largura, cor, fonte...*/
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.jogador,
+
+/* alinhando o tamanho do nome do jogador e vencedor*/
+
+.vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    /* alinhando o tamanho do botão reiniciar*/
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+}
